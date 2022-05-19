@@ -1,0 +1,185 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.background{
+  background: linear-gradient( rgba(0, 0, 0, 0.164), rgba(0, 0, 0, 0.151) ), url(../assets/bg1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
+  
+}
+
+.singleZ{
+  margin-top: 3em;
+}
+
+.singleI{
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  align-content: center;
+  margin-top: 2.25em;
+}
+
+.inputSpace{
+  margin-bottom: 10%;
+}
+
+.divInput{
+  align-content: center;
+  background-color: rgba(241, 202, 174,0.8);
+  border: 3px solid rgba(2, 2, 2,0.7) ;
+  margin-left: 10%;
+  width: 80%;
+  height: 100%;
+  border-radius: 20px;
+
+}
+
+.divOutput{
+  align-content: center;
+  background-color: rgba(241, 180, 136, 0.8);
+  border: 3px solid rgba(2, 2, 2,0.7) ;
+  margin-left: 10%;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  padding-top: 5%;
+  font-size: 1.2em;
+  font-weight: bold;
+
+  
+
+}
+
+
+.divOutput p{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.divOutput h3{
+  margin-left: 5px;
+  font-weight: bold;
+  padding-bottom: 2em;
+}
+
+
+
+.inputN{
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+
+
+label{
+  color: rgb(39, 39, 39);
+  
+}
+
+input[type=text] {
+  margin-bottom: 10px;
+  border: 3px solid rgba(2, 2, 2,0.7) ;
+  border-radius: 10px;
+}
+
+.error{
+  margin-top: 20px;
+  color: rgb(182, 35, 35);
+  font-weight: bold;
+  background-color:  rgb(255, 255, 255);
+  border: 3px solid rgba(2, 2, 2,0.7) ;
+  border-radius: 10px;
+  font-size: 1.3em;
+
+}
+
+.doubleZ{
+  padding-top: 2em;
+  background-color:aquamarine;
+}
+
+.topnav {
+  background-color: rgba(252, 185, 170,0.8);
+  overflow: hidden;
+  text-align: center;
+  font-weight: bold;
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-size: 3em;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: rgb(233, 233, 233);
+  transition: 1s;	
+  text-align: center;
+
+}
+.button{
+width: 45%;
+height: 3.5em;
+border: 3px solid rgba(2, 2, 2,0.7);
+border-radius: 10px;
+font-size: 1.1em;
+}
+
+.button:hover{
+  background-color: rgb(	193, 225, 193);
+  transition: 1.2s;
+  color: white;
+}
+	
+
+.title1{
+  width: 50%;
+  text-align: center;
+  border: 3px solid rgba(255, 219, 204, 0.95);
+  border-radius: 20px;
+  margin: 0 auto;
+  color: #ffffff;
+  background-color: rgba(252, 185, 170, 0.95);
+  padding-top: 5px;
+  margin-top: 2.5em;
+}
+
+.title2{
+  width: 50%;
+  text-align: center;
+  border: 3px solid rgba(255, 219, 204, 0.95);
+  border-radius: 20px;
+  margin: 0 auto;
+  color: #ffffff;
+  background-color: rgba(252, 185, 170, 0.95);
+  padding-top: 5px;
+}
+
+.title1 h1 {
+  line-height: 1.5;
+  margin-top: 50px;
+  vertical-align: middle;
+}
+
+
+
+@media (max-width: 800px) {
+    .button{
+      width: 60%;
+    }
+}
